@@ -1,0 +1,144 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item1 {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.content {
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+.subtitle {
+    padding-top: 4px;
+    font-size: 12px;
+}
+
+.content,.subtitle {
+    font-family:AppleGothic;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 175px 195px;
+    padding-right: 50px;
+    background-color: #fafafa;
+    justify-content: center;
+}
+
+/* top row */
+
+
+.item1item1 {
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.item1item2 {
+    font-family:AppleGothic;
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 65px;
+}
+
+.item1item3 {
+    font-size: 18px;
+}
+
+.item3 {
+    display: grid;
+    grid-template-columns: 105px 210px;
+}
+
+.address {
+    display:grid;
+    grid-template-columns: 50px 210px;
+}
+
+.secondItem {
+    display:grid;
+    grid-template-columns: 50px 210px;
+}
+
+.thirdItem {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item3item1 {
+    padding-top: 60px;
+}
+
+.item4 {
+    display: grid;
+    grid-template-columns: 50px 210px;
+}
+
+.item4item1{
+    padding-top: 65px;
+}
+
+.padding {
+}
+
+.item4item2text1 {
+    font-family:AppleGothic;
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+.item4item2text2 {
+    font-family:AppleGothic;
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+/* top row */
+
+
+@media only screen and (max-width: 570px) {
+    .item1item2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+}
+
+/* disclosure */
+.disclosure {
+    padding-bottom:20px;
+    background-color: #fafafa;
+    text-align: center;
+    font-size:12px;
+}
+
+.contact1 {
+    background-color: #fafafa;
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.map {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fafafa;
+    padding-bottom: 50px;
+}
+
+.links {
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.linkHeader {
+    font-size: 16px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}

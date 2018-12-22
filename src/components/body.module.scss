@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script:400');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.font {
+    font: 17px/1.81 '맑은 고딕', 'Malgun Gothic', '나눔고딕', '돋움', Dotum, '굴림', Gulim, 'Apple SD Gothic Neo', sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    color: black;
+    text-rendering: optimizeLegibility;
+}
+
+.bodyHeader {
+    font-family: Nanum Myeongjo;
+    padding-bottom: 29px;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.paragraphHeader {
+    font-family: Nanum Myeongjo;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.paragraph {
+    padding-top: 29px;
+}
+
+.quote {
+    padding-top:15px;
+    padding-left: 17px;
+    padding-bottom:15px;
+    font-style: italic;
+}
+.quote1 {
+    padding-bottom:15px;
+    padding-left: 17px;
+    font-style: italic;
+}
+
+.flex {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img {
+    -webkit-box-shadow: 0 0 15px #888888;
+    -moz-box-shadow:    0 0 15px #888888;
+    box-shadow:         0 0 15px #888888;
+
+}
+
+.korean{
+    font-size: 16px;
+}
