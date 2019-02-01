@@ -71,19 +71,19 @@ const Header = ({ siteTitle }) => (
         </tr>
         <tr>
           <td>$25,000</td>
-          <td>2.0 Lot</td>
+          <td>2.0 Lots</td>
         </tr>
         <tr>
           <td>$100,000</td>
-          <td>8.0 Lot</td>
+          <td>7.0 Lots</td>
         </tr>
         <tr>
           <td>$500,000</td>
-          <td>25.0 Lot</td>
+          <td>25.0 Lots</td>
         </tr>
         <tr>
           <td>$1,000,000</td>
-          <td>40.0 Lot</td>
+          <td>40.0 Lots</td>
         </tr>
       </table>
       <div className={styles.paragraph}>
